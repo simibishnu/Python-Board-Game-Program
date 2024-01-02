@@ -1,15 +1,9 @@
-#Name: Simi Bishnu
-#Student Number: 101264827
-#for assignment 6
-#special features include numbered tiles and extra turns (the player gets an extra turn if they roll the same number on both die)
-
-
 import random
 import pygame
 pygame.init()
 
 #creating a display board
-#flags = pygame.SCALED | pygame.RESIZABLE
+
 board = pygame.display.set_mode((900,800))
 
 #colours for player A and player B
